@@ -1,0 +1,60 @@
+
+function reverseString(str) {
+    var newString = "";
+    for (var i = str.length - 1; i >= 0; i--) {
+        newString += str[i];
+    }
+    return newString;
+}
+
+1. Background story: 
+Palindrome is a word, phrase, or sequence that reads backwards as forwards.
+
+e.g madam, nurses run, Anna, Civic, Level, Noon, mom, refer.
+
+Each word is the same as the reverse of it.
+Question:
+write a function called Palindromechecker that takes in an array input  and return true if any word
+in the input array is a Palindrome;
+
+Hint: an helper function has been given to you called reverseString.
+reverseString is a function that helps you to reverse a word. 
+
+e.g reverseString("bag") =  "gab"; // not a Palindrome 
+    reverseString("refer") =  "refer"; // it is a Palindrome 
+
+	(20 marks)
+2. Background Story:
+
+   A car is a four-wheeled road vehicle that is powered by an engine and
+   is able to carry a small number of people.
+   it has the following properties: 2 doors, 4 tryres, 2 rearSeats,
+   1 windshield, 2 sideMirrors.
+
+  Question:
+   i. Create an object called car to describe the car described above (10 marks)
+   
+   ii. write a function called carSideMirrorChecker that take in a car object you created in i above
+      and return the number of rearSeats of the car object; (10 marks)
+   
+ 
+3.Background story:
+	
+  In mathematices average is the addition of  all the numbers in a group and
+  then divided by the number of numbers.
+
+  E.g let numArray = [4,8,20,80,75,40];
+       let sumOfnumArray  = 4 + 8 + 20 + 80 + 75 + 50 = 227;
+	the number of items in a = 6;
+	hense average of numArray  =    sumOfnumArray/ 6 (227 / 7)
+
+	Question:
+	write a function called average which takes an an array of integers and return its average;
+	
+	(20 marks)
+
+	
+
+
+
+
